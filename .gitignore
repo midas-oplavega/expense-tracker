@@ -1,0 +1,29 @@
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+client_secret*.json
+service-account*.json
+token.json
+
+# Real financial data — never commit
+/scratch/
+/data/
+statements/
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+*.ofx
+*.qif
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
